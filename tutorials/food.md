@@ -66,7 +66,7 @@ To add a product click **add**.
 Most fields are optional. The required fields have a red border.
 
 - **Name:** Name of the product (Required)
-- **Parent product:** Assign a parent product, either by entering the name or scanning barcode or scan the barcode with your camera.
+- **Parent product:** Assign a parent product, either by entering the name or scanning barcode or scan the barcode with your camera. Learn more at [Parent Products](#parent-products)
 - **Description:** A description of the product.
 - **Barcode(s):** One or many barcodes for the product. If you want to assign the same product of different brands, you could add the barcodes of the different brands here and Grocy will consider them as the same product. Add the barcodes by scanning barcode or scan the barcode with your camera by pressing the blue button. (Note: A handheld barcode scanner enters its data the same way as a keyboard, you have to select the field before scanning.)
 - **Default Location:** Default location for the product (Required).
@@ -85,8 +85,8 @@ Most fields are optional. The required fields have a red border.
 - **Allow partial units in stock:** If you want to be able to track partial units in stock. E.g. you consume half a head of lettuce and want to keep track of that, you have to enable this.
 
 ![Edit Product 3](/images/editproduct3.png)
-- **Enable tare weight handling:** 
-- **Tare weight:** 
+- **Enable tare weight handling:** This can be used for tracking the amount of a product that is remaining by weighing the container after a portion of the product is consumed. Useful for products like flour where you purchase it by weight, but the recipies you use call for volume measurements (i.e. cups) that can vary in exact weight. 
+- **Tare weight:** The weight of the container that is holding the product. Either measure the container when empty, or if you purchased a packaged product by weight, measure the weight of the entire good and subtract the weight of the paid for product (leaving the weight of the packaging)
 - **Disable stock fulfillment checking for this ingredient:** If you do not want to check stock for this product when Grocy checks if you have enough in stock to cook a recipe. Can be overridden in the recipe.
 - **Energy (kcal):** Energy content of a stock unit.
 - **Default best before days after freezing:** If you move a product from the fridge to the freezer, it will get a new best before date if this value is set. Note: `-1`does not work for this field and product that is put directly into the fridge will not get this value. This only applies when a product is moved to the fridge.
