@@ -196,12 +196,14 @@ If you scanned an item that you have in stock, but with another brand, and you w
 
 ### Scan mode
 
-On top of the screen you can select **Scan mode off** or **Scan mode on**. The intention is to make it fast to purchase an item with a scanner. For scan mode to work as intended:
-- best before date must be filled with a default value or disabled in the config.
+On top of the screen you can select **Scan mode off** or **Scan mode on**. The goal of this feature is to make purchasing an item with a scanner as straightforward as possible. For scan mode to work as intended:
+- best before date of the product you scan must be filled with a default value or disabled in the config;
+- the setting *Default amount for purchase* (under *Stock settings*) must be set to a non-zero value;
+- the stock unit of the product you scan should be uniform rather than variable (think cans or bags, rather than grams or ounces).
 
-**Note:** Price will not be entered (if it is enabled)
+**Note:** Price will not be entered (if it is enabled) unless you entered it before scanning.
 
-When you purchase with scan mode it will purchase one of the purchase unit.
+When you purchase with scan mode it will purchase the default amount for purchase of the purchase unit.
 
 ## Consume
 
