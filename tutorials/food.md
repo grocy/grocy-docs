@@ -201,9 +201,9 @@ On top of the screen you can select **Scan mode off** or **Scan mode on**. The g
 - the setting *Default amount for purchase* (under *Stock settings*) must be set to a non-zero value;
 - the stock unit of the product you scan should be uniform rather than variable (think cans or bags, rather than grams or ounces).
 
-**Note:** Price will not be entered (if it is enabled) unless you entered it before scanning.
+**Note:** Price (if it is enabled) will not be entered unless you enter it before scanning.
 
-When you purchase with scan mode it will purchase the default amount for purchase of the purchase unit.
+When you purchase with scan mode, if the barcode you scan contains an amount, the registered purchase will be for a number of items equal to that amount; if the barcode you scan does *not* contain an amount, then the purchase will be for a number of units equal to the *Default amount of purchase*.  E.g., if you scan a barcode of a product with purchase unit "cans" without an amount attached to it, and your *Default amount for purchase* is *2*, then the recorded purchase will be for *2 cans*.
 
 ## Consume
 
