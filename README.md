@@ -1,3 +1,14 @@
+# grocy-docs
+
+-----
+-----
+> [!CAUTION]
+> This project (grocy-docs, not [Grocy](https://github.com/grocy/grocy) itself) is retired, information provided here is maybe outdated or even incorrect.
+-----
+-----
+
+<details><summary>Original README</summary>
+
 # Looking for the docs
 
 Continue to the [Grocy documentation](tutorial.md) or look below for some stuff about the docs and how to help improve them.
@@ -54,3 +65,4 @@ Please leave an issue if you think there is a topic that needs further documenta
 - [X] Examples
 - [ ] Update to 3.0
 - FAQ (?)
+</details>
